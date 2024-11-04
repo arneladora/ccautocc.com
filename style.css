@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: flex-end; /* Aligns the content to the right */
+  align-items: center; /* Centers content vertically */
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding-right: 50px; /* Adds space from the right edge */
+}
+
+.hero-text {
+  color: red;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text a {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.vertical-menu {
+  position: fixed;
+  top: 160px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+
+.vertical-menu h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.vertical-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vertical-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: block;
+  background-color: #f4f4f4;
+}
+
+.vertical-menu ul li a:hover {
+  background-color: #ddd;
+}
+
+.chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
